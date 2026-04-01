@@ -41,9 +41,12 @@ Model                 Test Accuracy                Key Features
 
 CNN (Primary)         ~33.7%                 Conv2D layers, MaxPooling, Dropout, Dense
 
+
 MLP (Flattened)       ~25.4%                 Dense layers on flattened images
 
+
 CNN (Improved)        ~44.3%                 Optimized architecture
+
 
 Random Forest + PCA    46.6%                 Best performing** with 50 PCA components
 
@@ -54,7 +57,7 @@ Python 3.8+
 Anaconda/Miniconda recommended
 1. Clone the repository
    
-git clone https://github.com/yourusername/facial-emotion-recognition.git
+git clone https://github.com/Nourhanmohamed12/tools_project.git
 cd facial-emotion-recognition
 
 2. Create virtual environment
@@ -124,28 +127,7 @@ Model Performance on Test Set:
 ├── MLP (Flattened):         25.42%
 ├── CNN (Improved):          44.27%
 └── Random Forest + PCA:     46.63% ⭐
-📁 File Structure
 
-facial-emotion-recognition/
-├── data/
-│   └── icml_face_data.csv
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_model_training.ipynb
-│   └── 03_model_comparison.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── models/
-│   │   ├── cnn_model.py
-│   │   ├── mlp_model.py
-│   │   └── rf_pca_model.py
-│   ├── train_cnn.py
-│   ├── train_all_models.py
-│   └── evaluate_models.py
-├── models/
-├── results/
-├── requirements.txt
-└── README.md
 
 👩‍💻 Author
 
