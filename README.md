@@ -57,7 +57,7 @@ Python 3.8+
 Anaconda/Miniconda recommended
 1. Clone the repository
    
-git clone https://github.com/Nourhanmohamed12/tools_project.git
+git clone https://github.com/Nourhanmohamed12/Data-tools-project.git
 cd facial-emotion-recognition
 
 2. Create virtual environment
